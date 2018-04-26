@@ -7,57 +7,73 @@
   <title>Analisis del Discurso Socialista Latinoamericano basado en Inteligencia Artificial</title>
   <style type="text/css">code{white-space: pre;}</style>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./castro/final.png" type="image/png" sizes="32x32">
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
 </script>
 <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
 
+</script>
   <header>
   <nav>
     <ul>
-      <li><a href="./index.html">Castro</a></li>
-      <li><a href="./index.html">Chavez</a></li>
-      <li><a href="./index.html">Correa</a></li>
-      <li><a href="./index.html">Guevara</a></li>
-      <li><a href="./index.html">Maduro</a></li>
-      <li><a href="./index.html">Marcos</a></li>
-      <li><a href="./index.html">Morales</a></li>
-      <li><a href="./index.html">Radar-charts</a></li>
-      
-      <!--
-      <li><a href="./EEG.html">EEG Analysis</a>
-        <ul>
-            <li><a href="./discretization.html">Discretization</a>
-              <ul>
-                <li><a href="./static_sax.html">Static SAX</a></li>
-                <li><a href="./dynamic_SAX.html">Dynamic SAX</a></li>
-              </ul>
-            </li>
-            <li><a href="./prediction.html">Prediction</a>
-              <ul>
-                <li><a href="./HMM.html">HMM</a></li>
-                <li><a href="./RNN.html">RNN</a></li>
-              </ul>
-            </li>
-        </ul>
-      </li>
-      <li><a href="#">Tutorials</a>
+      <li><a href="./index.html">DP-discourses</a>
       <ul>
-        <li><a href="./static_sax_tutorial.html" target = "_blank">Static SAX</a></li>
+        <li><a href="./castro/70_complete_cityblock.pdf">70 complete cityblock</a></li>
+        <li><a href="./castro/77_complete_cityblock.pdf">77 complete cityblock</a></li>
+        <li><a href="./castro/93_complete_cityblock.pdf">93 complete cityblock</a></li>
+        <li><a href="./castro/111_complete_cityblock.pdf">111 complete cityblock</a></li>
+        <li><a href="./castro/122_complete_cityblock.pdf">122 complete cityblock</a></li>
+        <li><a href="./castro/200_complete_cityblock.pdf">200 complete cityblock</a></li>
+        <li><a href="./castro/206_complete_cityblock.pdf">206 complete cityblock</a></li>
+        <li><a href="./castro/207_complete_cityblock.pdf">207 complete cityblock</a></li>
+        <li><a href="./castro/225_complete_cityblock.pdf">225 complete cityblock</a></li>
+        <li><a href="./castro/272_complete_cityblock.pdf">272 complete cityblock</a></li>
+        <li><a href="./castro/278_complete_cityblock.pdf">278 complete cityblock</a></li>
+        <li><a href="./castro/280_complete_cityblock.pdf">280 complete cityblock</a></li>
+        <li><a href="./castro/299_complete_cityblock.pdf">299 complete cityblock</a></li>
+        <li><a href="./castro/312_complete_cityblock.pdf">312 complete cityblock</a></li>
+        <li><a href="./castro/339_complete_cityblock.pdf">339 complete cityblock</a></li>
+        <li><a href="./castro/344_complete_cityblock.pdf">344 complete cityblock</a></li>
+        <li><a href="./castro/361_complete_cityblock.pdf">361 complete cityblock</a></li>
+        <li><a href="./castro/365_complete_cityblock.pdf">365 complete cityblock</a></li>
+        <li><a href="./castro/383_complete_cityblock.pdf">383 complete cityblock</a></li>
+        <li><a href="./castro/437_complete_cityblock.pdf">437 complete cityblock</a></li>
+        <li><a href="./castro/457_complete_cityblock.pdf">457 complete cityblock</a></li>
+        <li><a href="./castro/466_complete_cityblock.pdf">466 complete cityblock</a></li>
+        <li><a href="./castro/542_complete_cityblock.pdf">542 complete cityblock</a></li>
+        <li><a href="./castro/549_complete_cityblock.pdf">549 complete cityblock</a></li>
+        <li><a href="./castro/593_complete_cityblock.pdf">593 complete cityblock</a></li>
       </ul>
       </li>
-      <li><a href="./about_us.html">About Us</a></li>
-      -->
+      <li><a href="./index.html">Models</a>
+      <ul>
+        <li><a href="./castro/word_embeddings.csv">Word2Vec pretrained model</a></li>
+        <li><a href="./castro/words_cluster_membership_frequencies.csv">Clusters</a></li>
+      </ul>
+      </li>
     </ul>
     </nav>
   </header>
 </head>
 
 <body>
-<h1 id="page_title">Analisis del Discurso Socialista Latinoamericano basado en Inteligencia Artificial</h1>
-<p> Analisis de Fidel Castro, Ernesto Guevara, Hugo CHavez, Nicolas Maduro, Evo Morales, Rafael Correa y Subcomandante Marcos </p>
+<h1 id="page_title">Analysis of Fidel Castro Speeches Enhanced by Data Mining</h1>
+<center>
+  <img src="castro/final.png" alt="fidel_castro" height="500" width="250" align="middle">
+</center>
+<p> 
+  Fidel Castro has been a major Cuban politician of the XXth century; that influenced different left-wing regimes and political movements in Latin America, and around the World.
+His ability to seduce masses relied to a large extent, on his rhetorical abilities.
+Indeed, speech skills are crucial for a politician to captivate his audience to join his cause.
+Therefore, studying Castro's political speech, is a crucial step towards understanding his political success.
+Some studies addressed this task previously, mostly using small discursive samples, with only few speeches.
+However, using a small and possibly non-representative sample is likely to lead to biased results.
+To overcome this problem, the work presented here was carried out on a large corpus of 1,018 speeches and 7,548,480 words, combining state-of-the-art data mining tools, and the linguistic discourse analysis methodology of Patrick Charaudeau.
+Using the association of both techniques, we provide here a more representative characterization of Castro's main discursive strategies.
+</p> 
+
 </body>
 </html>
